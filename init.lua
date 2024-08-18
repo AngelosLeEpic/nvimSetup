@@ -37,7 +37,6 @@ require("lazy").setup({
   spec = {
 	  {load_plugins_from_dir("plugins")},
 	{load_plugins_from_dir("colorschemes")},
-	
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
