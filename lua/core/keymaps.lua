@@ -8,4 +8,7 @@ vim.api.nvim_set_keymap('n', 'fe', ':SidebarNvimOpen<CR>', { noremap = true, sil
 
 vim.api.nvim_set_keymap('n', 'fw', ':SidebarNvimClose<CR>', { noremap = true, silent = true })
 
+vim.api.nvim_set_keymap('n', 'te', ':Telescope<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'tt', ':Neotree<CR>', { noremap = true, silent = true })
+
 
